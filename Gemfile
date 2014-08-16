@@ -39,7 +39,6 @@ gem 'spring',        group: :development
 
 
 group :development do
-  gem 'bullet'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'pry-stack_explorer'
