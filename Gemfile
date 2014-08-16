@@ -37,3 +37,25 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+group :development do
+  gem 'bullet'
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-stack_explorer'
+  gem 'pry-byebug'
+  gem 'pry-remote'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rails-flog', require: 'flog'
+  gem 'capistrano', '~> 3.1.0'
+  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rbenv', '~> 2.0'
+  gem 'capistrano-bundler', '~> 1.1.2'
+end
+
+group :test do
+  gem 'database_cleaner'
+  gem 'rspec-rails', '3.0.0.beta2'
+  gem 'factory_girl_rails'
+end
