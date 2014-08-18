@@ -39,6 +39,8 @@ gem 'spring',        group: :development
 
 gem 'httparty'
 
+gem 'rails_config'
+
 group :development do
   gem 'pry-rails'
   gem 'pry-doc'
