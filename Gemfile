@@ -41,6 +41,8 @@ gem 'httparty'
 
 gem 'rails_config'
 
+gem 'grape'
+
 group :development do
   gem 'pry-rails'
   gem 'pry-doc'
