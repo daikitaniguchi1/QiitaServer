@@ -19,5 +19,14 @@ class API < Grape::API
         error_handling!(e.message, 400)
       end
     end
+
+    post do
+      begin
+        Item.set_items_from_api
+      rescue => e
+        error_handling!(e.message, 400)
+      end
+    end
+
   end
 end
