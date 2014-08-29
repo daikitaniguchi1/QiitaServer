@@ -27,6 +27,10 @@ module QiitaServer
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    # for Grape
+    config.paths.add "app/api", glob: "**/*.rb"
+    config.autoload_paths += Dir["#{Rails.root}/app/api/*"]
+
     config.generators do |g|
       g.orm :mongoid
       g.template_engine :erb
