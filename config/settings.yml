@@ -1,4 +1,4 @@
 items:
   per_page: 100
-  page: 1
+  page: 10
   threshold: 30
