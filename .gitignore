@@ -16,7 +16,7 @@
 /tmp
 
 .idea/*
-*.lock
+Berksfile.*
 
 config/settings.local.yml
 config/settings/*.local.yml
